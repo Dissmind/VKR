@@ -1,0 +1,72 @@
+
+.meals {
+  background-image: url('/assets/img/menu_meals.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.pitas {
+  background-image: url('/assets/img/menu_pitas.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.salads {
+  background-image: url('/assets/img/menu_salads.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.img_a {
+  background-image: url('/assets/img/img_a.png');
+  background-size: 100% 100%;
+  text-decoration: none;
+}
+
+
+
+.product-list .product-img {
+  width: 50%;
+}
+.product-list .product-img img {
+  width: 70%;
+}
+.product-list .product-list-item {
+  display: flex;
+  justify-content: center;
+  width: 49%;
+}
+.product-list {
+  display: flex;
+  margin-top: 70px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 32px;
+}
+
+
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 16px;
+}
+.info .title {
+  color: #0f75b8;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.info .description {
+  margin-bottom: 8px;
+  width: 225px;
+}
+.info .bottom {
+  display: flex;
+}
+.info .calories {
+  margin-left: 16px;
+}
+
+.info .price, .info .calories {
+  font-weight: bold;
+}
+

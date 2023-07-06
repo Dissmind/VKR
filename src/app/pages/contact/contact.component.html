@@ -1,0 +1,134 @@
+<app-main-nav></app-main-nav>
+<div
+  class="position-relative bg-dark py-xl-5 py-md-4 py-3 text-lg-start text-center contact_banner"
+>
+  <div
+    class="container text-white py-xl-5 py-md-4 py-3 text-lg-start text-center"
+  >
+    <div class="py-xl-5 py-md-4 py-3 text-lg-start text-center">
+      <div class="row py-xl-5 py-md-4 py-3">
+        <div class="py-xl-5 py-md-4 py-3">
+          <div class="py-xl-5 py-md-4 py-3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container py-md-5 py-3">
+  <div class="col-lg-12 offset-lg-0">
+    <div class="row py-md-5 py-3">
+      <div class="col-lg-6 mb-5 mb-lg-0">
+        <h1
+          class="display-4 text-uppercase font-family-intro text-primary"
+          style="line-height: 1"
+        >
+          Happy to hear from you
+        </h1>
+
+        <p>
+          We value our customer’s feedback. If you have any general restaurant
+          inquiries, comments about our food or operations, please share them
+          with us below.
+        </p>
+        <form class="w-75" method="post" action="http://localhost">
+          <div class="form-row mb-3">
+            <input
+              class="form-control form-control-lg rounded-0"
+              name="name"
+              type="text"
+              id="validationCustom01"
+              placeholder="Имя"
+              value
+              required
+              [(ngModel)]="name"
+            />
+          </div>
+          <div class="form-row mb-3">
+            <input
+              class="form-control form-control-lg rounded-0"
+              name="email"
+              type="email"
+              id="exampleInputEmail1"
+              placeholder="E-mail"
+              required
+              [(ngModel)]="email"
+            />
+          </div>
+          <div class="form-row mb-3">
+            <input
+              class="form-control form-control-lg rounded-0"
+              name="phone"
+              type="text"
+              id="exapmleInputPhoneNumber"
+              placeholder="Номер телефона"
+              required
+              [(ngModel)]="phoneNumber"
+            />
+          </div>
+          <div class="form-row mb-3">
+            <textarea
+              class="form-control form-control-lg rounded-0"
+              name="comments"
+              id="exampleFormControlTextarea1"
+              placeholder="Комментарий"
+              required
+              rows="3"
+              [(ngModel)]="comment"
+            ></textarea>
+          </div>
+          <button
+            class="btn btn-info btn-lg font-family-intro text-white"
+            type="submit"
+            (click)="submitForm()"
+          >
+            Отправить
+          </button>
+        </form>
+      </div>
+      <div class="col-lg-6">
+        <h1
+          class="display-4 text-uppercase font-family-intro"
+          style="line-height: 1; color: #88c23f"
+        >
+          Franchise
+        </h1>
+        <div class="textbox">
+          <p>
+            We’re very proud of our carefully selected franchise team who help
+            us deliver great food with friendly service to our valued customers
+            each day. Finding like-minded investors who share our vision and
+            goals is important to our collective growth and success. We
+            currently do not have immediate expansion plans however if you are
+            interested please download application form below, fill out and
+            email it to&nbsp;<a
+              style="text-decoration: none"
+              href="mailto:info@jimmythegreek.com"
+              >info@jimmythegreek.com</a
+            >
+          </p>
+          <p>
+            <a
+              href="http://localhost:3000/static/docs/application-form.pdf"
+              target="_blank"
+              style="text-decoration: none"
+              rel="noreferrer noopener"
+              aria-label="(opens in a new tab)"
+              >Download Application Form</a
+            >
+          </p>
+          <p>
+            <a
+              href="http://localhost:3000/static/docs/information-package.pdf"
+              target="_blank"
+              style="text-decoration: none"
+              rel="noreferrer noopener"
+              aria-label="(opens in a new tab)"
+              >Download Information Package</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-main-footer></app-main-footer>

@@ -1,0 +1,16 @@
+.contact_banner {
+  background-image: url('/assets/img/contact_banner.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.form-row {
+  flex-wrap: wrap;
+  margin-right: -5px;
+  margin-left: -5px;
+}
+.textbox {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+}

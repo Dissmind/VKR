@@ -1,0 +1,27 @@
+.pic1,
+.pic2,
+.pic3 {
+  background-size: cover;
+  background-position: center;
+}
+.pic1 {
+  background-image: url('/assets/img/pic1.jpg');
+}
+.pic2 {
+  background-image: url('/assets/img/pic2.jpg');
+}
+.pic3 {
+  background-image: url('/assets/img/pic3.jpg');
+}
+
+.inside_block1 {
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.inside_block_a_1 {
+  left: 0;
+  top: 0;
+  z-index: 3;
+}
